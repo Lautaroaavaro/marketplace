@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+h1 {font-size: 3.0em;}
+
+header {
+  background-color: rgb(245,245,245);
+}
+
+header .logo {
+  margin: 0;
+  padding: 20px 25px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 1.8em;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header a {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header a:hover {
+  color: blueviolet;
+}
+
+#busqueda {
+  padding: 30px;
+  text-align: center;
+}
+
+#busqueda .buscar-container {
+  padding: 10px 15px;
+
+}
+
+#busqueda .buscador {
+  border-radius: 5px;
+  color: white;
+  background-color: blueviolet;
+}
+
+#busqueda .busca {
+  border-radius: 5px;
+  padding: 10px;
+  border-radius: 35px solid;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 80vh;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+  ,url(produc.jpg);
+
+}
+
+#hero h1 {
+  color: white;
+}
+
+#producto {
+  padding: 20px;
+}
+
+img {
+  height: 340px;
+}
+
+#producto .nomb {
+  text-align:center;
+  font-weight: bold;
+  font-size: 20px;
+ 
+}
+
+#producto .container {
+  border: 0.5px solid black;
+  margin: 7px;
+  margin-right: 1190px;
+  text-align: center;
+  
+}
+
+
